@@ -4,8 +4,7 @@ The Solar Agribot Project was the Major Qualifying Project for my Bachlors Degre
 In this repository lives all of the code that was written. 
 
 ## How to Use
-For future project groups or anyone interested please first fork the repository then clone that one.
-
+For future project groups or anyone interested please first fork the repository
 
 
 
