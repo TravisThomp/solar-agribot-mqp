@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #E8E8E8;
+}
+
+@layer components {
+    .card {
+        background-color: theme('colors.white');
+        border-radius: theme('borderRadius.2xl');
+        box-shadow: theme('boxShadow.md');
+    }
+
+    .map {
+        @apply w-full;
+        @apply h-full;
+        border-radius: theme('borderRadius.2xl');
+    }
+}
+
+@layer base {
+    h1 {
+      @apply text-2xl;
+      font-family: tablet-gothic, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  }
+
+font-regular {
+    font-family: tablet-gothic, sans-serif; 
+}
+
+font-semibold {
+    font-family: tablet-gothic, sans-serif; 
+    font-weight: 600;
+    font-style: normal;
+}
+
+font-bold {
+    font-family: tablet-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

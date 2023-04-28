@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../../School Senior Year/mqp/solar-agribots-arduino"
+		},
+		{
+			"name": "transmitter",
+			"path": ".."
+		},
+		{
+			"path": "../../recTransmitter"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #1C1C27;
+}
+
+@layer components {
+    .card {
+        background-color: theme('colors.medium-purple');
+        border-radius: theme('borderRadius.2xl');
+        box-shadow: theme('boxShadow.md');
+    }
+
+    .map {
+        @apply w-full;
+        @apply h-full;
+        border-radius: theme('borderRadius.2xl');
+    }
+
+    .font-regular {
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .font-light {
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .font-ohm {
+        font-family: "ohm-bold", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 100px;
+    }
+}
+
+@layer base {
+    h1 {
+      @apply text-2xl;
+      font-family: tablet-gothic, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  }
+

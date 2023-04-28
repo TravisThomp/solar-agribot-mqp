@@ -1,0 +1,1 @@
+{"sampleDateTime":"12-06-2022 10:00:00","longitude":42.273656,"latitude":-71.811624,"soilData":{"temperature":55,"humidity":56,"conductivity":57,"ph":7,"nitrogen":1000,"phosphorous":2000,"potassium":3000}}
